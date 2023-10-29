@@ -1,0 +1,47 @@
+.container{
+    width: min(100%, 1440px);
+    margin: auto;
+
+}
+/* header */
+header{
+background-color: #FFF;
+padding: 52px 98px;
+display: flex;
+align-items: center;
+
+}
+.logo{
+    width: 127px;
+    height: 46px;
+    margin-right: 251px;
+}
+.header_ul{
+    display: flex;
+gap: 50px;
+    
+}
+.header_li a{
+    color: #758BFD;
+    font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+.searchbar{
+    display: flex;
+width: 222px;
+height: 56px;
+border-radius: 10px;
+border: 3px solid #758BFD;
+margin-left: 251px;
+padding: 12px 8px 12px 182px;
+justify-content: flex-end;
+align-items: center;
+}
+.img1{
+    font-size: 32px;
+   color:  #758BFD;
+}
+/* section */
