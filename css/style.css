@@ -90,7 +90,7 @@ justify-content: center;
 .flex_card_5,
 .flex_card_6
 {
-    width: 340px;
+    width: (340 / 1440 * 100);
 height: 188px;
 border-radius: 10px;
 }
@@ -114,4 +114,36 @@ margin-top: 33px;
 footer{
     background-color: #758BFD;
     height: 239px;
+}
+.footer_headline{
+    color: #FFF;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0.2px;
+margin-left: 96px;
+
+
+}
+.footer_iconbox{
+    display: inline-flex;
+   justify-content: space-around;
+    width: 114px;
+height: 22px;
+vertical-align: middle;
+}
+.fa-facebook-f,
+.fa-linkedin-in,
+.fa-instagram{
+    color: #FFFFFF;
+    gap: 10px;
+}
+
+.flashcards_footer{
+    display: flex;
+    margin-left: 711px;
+    margin-top: 76px;
+    gap: 18px;
+    
 }
